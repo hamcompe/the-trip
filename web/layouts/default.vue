@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 html
 {
   /*font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;*/
@@ -50,5 +50,13 @@ html
 {
   color: #fff;
   background-color: #35495e;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.content-container {
+  @extend .container;
+  max-width: 800px;
 }
 </style>

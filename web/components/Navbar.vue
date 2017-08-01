@@ -1,13 +1,14 @@
 <template lang="html">
-  <header>
-    <router-link to="/home">Trip Dude</router-link>
-    <div class="new-article">
-      <a href="/new-article">
-        new article
-      </a>
-    </div>
-  </header>
-
+  <div class="test">
+    <header>
+      <router-link to="/home">Trip Dude</router-link>
+      <div class="new-article">
+        <a href="/new-article">
+          new article
+        </a>
+      </div>
+    </header>
+  </div>
 </template>
 
 <script>
@@ -22,7 +23,10 @@ header {
   width: 100%;
   background: #fff;
   padding: 20px;
-  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ececec;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 a {
   color: #666;
@@ -30,5 +34,8 @@ a {
 }
 .new-article {
   margin-left: auto;
+}
+.test {
+  margin-bottom: 80px;
 }
 </style>

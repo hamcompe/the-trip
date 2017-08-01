@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="card">
-    <router-link to="/articlev2/1">
+    <router-link to="/articlev3/1">
       <img class="article-img" src="/img/article-bg.png" alt="">
     </router-link>
     <div class="card-desc">
@@ -47,6 +47,8 @@
   box-shadow: 0px 6px 7px -3px rgba(0, 0, 0, 0.08), 0px 3px 5px 1px rgba(0, 0, 0, 0.05);
   border-radius: 0.28571429rem;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 
   .card-header {
     display: flex;
